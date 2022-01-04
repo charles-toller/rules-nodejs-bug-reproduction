@@ -1,0 +1,15 @@
+{
+    "compilierOptions": {
+        "rootDirs": [
+            ".",
+            "../../bazel-out/host/bin/subdir/a",
+            "../../bazel-out/k8-fastbuild/bin/subdir/a"
+         ]
+    },
+    "include": [
+        "src/**/*.ts",
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
